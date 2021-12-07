@@ -1,0 +1,178 @@
+
+/*Index*/
+*{
+    margin: 0%;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Work+Sans&display=swap');
+
+
+
+
+.header-flex{
+    display: flex;  flex-direction: row; 
+    justify-content: center;
+
+}
+
+.footer-flex {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delicias-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    display: inline-block; 
+
+    
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+
+body{
+    margin: 0%;
+}
+
+.iconImage{
+    resize: horizontal 60px;
+    resize: vertical 60px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2, h3, h4, h5{
+    font-family: 'Concert One', cursive;
+    font-family: 'Work Sans', sans-serif;
+}  
+
+p{
+    font-family: 'Concert One', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media only screen and (min-width: 320px) {
+    h1 h2 h3 h4 h5 {
+        font-size: 20px;
+    }
+}
+
+header{
+    margin-top: 0%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #D1B1CB;
+    align-content: center;
+}
+
+body{
+    background-color: #85C7F2;
+}
+
+main{
+    background-color: #85C7F2;
+    background-size: 100%;
+    padding-bottom: 30px;
+}
+
+.sectionClients{
+    padding-top: 40px;
+    margin: 50px 50px;
+    transition: all 0.5s;
+}
+
+.clientes:hover{
+    transform: scale(1.4);
+    background-color: #757083;
+}
+
+.sectionContact2, .sectionContact3, .sectionContactMain{
+    margin-top: 30px;
+}
+
+footer{
+    background-size: 75%;
+    background-color: #D1B1CB;
+    align-content: center;
+    margin-top: 0%;
+}
+
+.footer-col{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0 15px;
+}
+
+@media(max-width: 920px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 620px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.navbar{
+    background-color: #D1B1CB;
+}
+
+.titulo{
+    display: inline;
+    width: 1285px;
+    height: 48px;
+}
+
+.redesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redesContainer ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.redesContainer ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: black;
+}
