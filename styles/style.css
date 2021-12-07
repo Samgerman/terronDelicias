@@ -165,14 +165,14 @@ footer{
 
 .redesContainer ul li {
     display: inline-block;
-    margin: 0px 5px;
-    width: 40px;
-    height: 40px;
+    margin: 1px 5px;
+    width: 10px;
+    height: 10px;
     text-align: center;
 }
 
 .redesContainer ul li a{
-    display: block;
-    padding: 0 10px;
-    background-color: black;
+    display: inline;
+    padding-right: 10px;
+    
 }
